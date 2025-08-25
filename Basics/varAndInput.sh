@@ -11,6 +11,10 @@ echo $((var1 + var2)) # treated as integer/number
 # $(( )) same but varable can be uesd init
 
 # Read Inputs by using read
+# format:  read -{flag} -{varible name}
 read variableName
 echo you wrote : $variableName
 
+# read have many other stuff to use most useful one I know is -p flag 
+ read -p "What is your name : " variableS
+echo "your name is : " $variableS
