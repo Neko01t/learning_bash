@@ -1,20 +1,25 @@
 #!/bin/bash
-# bash stores everything as string
-# on basis of use the the stores value is changed
-# example 
+
+# In Bash, everything is stored as a string.
+# Depending on how you use it, the stored value can be treated differently.
+
+# Example:
 var1="5"
 var2="4"
-echo $var1+$var2 # treated as string  
-echo $((var1 + var2)) # treated as integer/number
 
-# (( )) is used to evaluate arthmatic operation 
-# $(( )) same but varable can be uesd init
+echo $var1+$var2         # Treated as string
+echo $((var1 + var2))    # Treated as integer/number
 
-# Read Inputs by using read
-# format:  read -{flag} -{varible name}
+# (( )) is used to evaluate arithmetic operations.
+# $(( )) is used for arithmetic expansion (variables can be used inside it).
+
+# ----------------------------
+# Reading input with 'read'
+# Format: read [options] variable_name
 read variableName
-echo you wrote : $variableName
+echo "You wrote: $variableName"
 
-# read have many other stuff to use most useful one I know is -p flag 
- read -p "What is your name : " variableS
-echo "your name is : " $variableS
+# 'read' has many useful options.
+# The most useful one is the -p flag, which lets you display a prompt:
+read -p "What is your name: " variableS
+echo "Your name is: $variableS"
