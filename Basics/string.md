@@ -5,7 +5,7 @@ This document covers **everything about strings in Bash** — declaration, opera
 
 ---
 
-## 📌 Declaring Strings
+## ✻ Declaring Strings
 
 ```bash
 # Single quotes: literal string (no variable expansion)
@@ -20,7 +20,7 @@ echo $str2   # Output: Hello <your-username>
 str3=Hello
 ```
 
-## String Length
+## ✻ String Length
 
 ```bash
 str="Hello World"
