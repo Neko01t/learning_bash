@@ -19,3 +19,12 @@ echo $str2   # Output: Hello <your-username>
 # Without quotes: behaves like double quotes unless spaces or special chars
 str3=Hello
 ```
+
+## String Length
+
+```bash
+str="Hello World"
+
+# Length of string
+echo ${#str}      # 11
+```
