@@ -7,8 +7,8 @@
 var1="5"
 var2="4"
 
-echo $var1+$var2         # Treated as string
-echo $((var1 + var2))    # Treated as integer/number
+echo $var1+$var2      # Treated as string
+echo $((var1 + var2)) # Treated as integer/number
 
 # (( )) is used to evaluate arithmetic operations.
 # $(( )) is used for arithmetic expansion (variables can be used inside it).
@@ -16,10 +16,19 @@ echo $((var1 + var2))    # Treated as integer/number
 # ----------------------------
 # Reading input with 'read'
 # Format: read [options] variable_name
-read variableName
+read -r variableName
 echo "You wrote: $variableName"
 
 # 'read' has many useful options.
 # The most useful one is the -p flag, which lets you display a prompt:
-read -p "What is your name: " variableS
+read -r -p "What is your name: " variableS
 echo "Your name is: $variableS"
+
+# ----------------------------
+# Variables
+# when assgining variables u should't give spaces before or after equal sign
+# Eample
+var=1
+echo $var
+var="world"
+echo $var
