@@ -28,3 +28,18 @@ str="Hello World"
 # Length of string
 echo ${#str}      # 11
 ```
+
+## ✻ Accessing Substrings
+
+We can access string similar way to how we do in python indexing is quite similar
+
+```
+str="Hello World"
+
+# Substring (syntax: ${string:position:length})
+echo ${str:0:5}   # Hello
+echo ${str:6:5}   # World
+
+# From position till end
+echo ${str:6}     # World
+```
