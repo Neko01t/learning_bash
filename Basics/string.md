@@ -33,7 +33,7 @@ echo ${#str}      # 11
 
 We can access string similar way to how we do in python indexing is quite similar
 
-```
+```bash
 str="Hello World"
 
 # Substring (syntax: ${string:position:length})
@@ -42,4 +42,19 @@ echo ${str:6:5}   # World
 
 # From position till end
 echo ${str:6}     # World
+```
+
+## ✻ String Concatenation
+
+We can concatenate string by just writing it together in a string
+Don't forget the $ to access the string in the double quotes
+
+```bash
+str1="Hello"
+str2="World"
+
+# Simple concatenation
+
+str3="$str1 $str2"
+echo $str3 # Hello World
 ```
