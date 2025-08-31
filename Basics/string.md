@@ -61,11 +61,11 @@ str3="$str1 $str2"
 echo $str3 # Hello World
 ```
 
-## String Comparison
+## ✻ String Comparison
 
 - In Bash, `[ ]` (square brackets) are used for tests/conditions.
 - Inside [ ], you can use different operators to check strings, numbers, or files
-- If we do `[[ ]]` then it is more powerfull now it can even check patterns and regex
+- If we do `[[ ]]` then it is more powerful now it can even check patterns and regex
   their are many things we can do in `[]` but remember one thing `=` in [] is treated as == as in different language but in `[[ ]]` have `==` hence `[[ ]]` is more powerfull
 - `[[ ]]` is bash only
 
@@ -82,5 +82,32 @@ str2="xyz"
 # Length check
 [[ -z $str1 ]] && echo "Empty"
 [[ -n $str1 ]] && echo "Not Empty"
+```
+
+## ✻ String Case Conversion
+
+This is how we do string case conversion and its just matter of remembering how its done
+
+- Uppercase `^^`
+- Lowercase `,,`
+- Fist Letter Uppercase `^`
+- First Letter Lowercase `,`
+  put these things last of the string based on the what is needed
+  again don't forgot how to get a variable use `"${[var_name][var_func]}"`
+
+```bash
+str="hello world"
+
+# Uppercase
+echo ${str^^}     # HELLO WORLD
+
+# Lowercase
+echo ${str,,}     # hello world
+
+# First letter uppercase
+echo ${str^}      # Hello world
+
+# First letter lowercase
+echo ${str,}      # hello world
 
 ```
