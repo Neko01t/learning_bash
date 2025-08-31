@@ -111,3 +111,5 @@ echo ${str^}      # Hello world
 echo ${str,}      # hello world
 
 ```
+
+[!NOTE] Make a small script to read username and pass and check against the correct one
