@@ -113,3 +113,20 @@ echo ${str,}      # hello world
 ```
 
 [!NOTE] Make a small script to read username and pass and check against the correct one
+
+## ✻ Bash String Operators in `${...}`
+
+- ■ Length of Sting (`#`)
+  It gets the length of string if we put it infront of the variable
+  ```bash
+  my_string="Hello Bash"
+  string_length=${#my_string}
+  echo "Length of my_string: $string_length" # Output: Length of my_string: 10
+  ```
+- ■ Suffix Removal (`$`)
+  This removes the shortest match of pattern from the end of the string.
+  ```bash
+  string="filename.tar.gz"
+  echo "${string%.gz}"   # Output: filename.tar
+  echo "${string%tar.gz}" # Output: filename.
+  ```
