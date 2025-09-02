@@ -130,3 +130,10 @@ echo ${str,}      # hello world
   echo "${string%.gz}"   # Output: filename.tar
   echo "${string%tar.gz}" # Output: filename.
   ```
+- ■ Suffix Removal (`//`)
+  The double slash // is specifically used in Bash parameter expansion for global pattern replacement. It replaces all occurrences of a pattern within a string.
+  ```bash
+      sentence="This is a test. This is another test."
+    new_sentence="${sentence//test/example}" # Replaces all "test" with "example"
+    echo "$new_sentence" # Output: This is a example. This is another example.
+  ```
