@@ -26,3 +26,17 @@ in bash `if (()) ;  then fi` does arithmetic operations well and `if [[]]; then 
 psps *I wanna learn music*
 
 ---
+
+### Tuesday 14 April 2026
+
+Did the grains problem, in it u have to caclulate the 2^n ,  sounds easy ?
+give input as 64 and it breaks
+why coz bash can't handle big numbers
+so we use `bc` or `awk`
+I used `awk` to solve it
+`bc` is basic caclulater
+and `awk` is scripting language ( try it its cool )
+
+thats it for today, I am in hurry for other work i took ;
+
+---
