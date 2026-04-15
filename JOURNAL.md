@@ -40,3 +40,22 @@ and `awk` is scripting language ( try it its cool )
 thats it for today, I am in hurry for other work i took ;
 
 ---
+
+### Wednesday 15 April 2026
+
+I did problem named two_fer its a problem where you have to make a string when given a input as a name
+
+- check the input add it into a string and present it
+- when input is nothing it should print **One for you,one for me**
+- when input is a name ( for example Neko ),then string be **One for Neko, one for me**
+- handle two inputs , handle handle arguments with spaces , handle if there is glob character like `*` or `.`
+
+In this i learnt about the `-z` flag which checks if the string is empty or not
+for example :
+  If $name is "" then -z flag is true
+  If $name is "Hawkmoth" then -z flag is false
+
+thats it i did only this much
+BOOOMMM
+
+---
