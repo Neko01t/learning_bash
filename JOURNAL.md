@@ -59,3 +59,9 @@ thats it i did only this much
 BOOOMMM
 
 ---
+
+### Thursday 16 April 2026
+
+I am unable to do any exercise today due to minecraft addiction
+
+I should play lesss (sad sounds)
