@@ -65,3 +65,34 @@ BOOOMMM
 I am unable to do any exercise today due to minecraft addiction
 
 I should play lesss (sad sounds)
+
+---
+
+## Friday 17 April 2026
+
+I solved a problem named allergies and it was tough and got to learn alot again
+like
+
+- array
+- if else nested
+- for loop
+- shifting binary (taught by ai how to caclulate 2^i using)
+
+It was a good experience and good brain teaser
+
+Problem is
+ You have a list that have a score that increase as 2^i and u have to give out the answer from the list based on input
+if the input is 8 then it should give the answer respect to 8=2^3 which i = 3 so the 4 the item in list
+twist is if score is 12 then u have to give out put as 2^2 + 2^3 so u have to print items as 2 and 3 which is printing the peanuts and shellfish
+list is below
+
+- eggs (1)
+- peanuts (2)
+- shellfish (4)
+- strawberries (8)
+- tomatoes (16)
+- chocolate (32)
+- pollen (64)
+- cats (128)
+
+end of day
