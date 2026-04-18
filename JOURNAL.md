@@ -96,3 +96,12 @@ list is below
 - cats (128)
 
 end of day
+
+---
+
+# Saturday 18 April 2026
+
+I am unable to do exercise due some minecraft tutorial taking looonng to build
+will do one towmorrow
+
+---
