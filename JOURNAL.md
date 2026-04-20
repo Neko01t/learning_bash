@@ -105,3 +105,7 @@ I am unable to do exercise due some minecraft tutorial taking looonng to build
 will do one towmorrow
 
 ---
+
+# Monday 20 April 2026
+
+Here comes college practicals so i won't be coding for few days
