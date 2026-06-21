@@ -118,20 +118,25 @@ echo ${str,}      # hello world
 
 - ■ Length of Sting (`#`)
   It gets the length of string if we put it infront of the variable
+
   ```bash
   my_string="Hello Bash"
   string_length=${#my_string}
   echo "Length of my_string: $string_length" # Output: Length of my_string: 10
   ```
+
 - ■ Suffix Removal (`$`)
   This removes the shortest match of pattern from the end of the string.
+
   ```bash
   string="filename.tar.gz"
   echo "${string%.gz}"   # Output: filename.tar
   echo "${string%tar.gz}" # Output: filename.
   ```
+
 - ■ Suffix Removal (`//`)
   The double slash // is specifically used in Bash parameter expansion for global pattern replacement. It replaces all occurrences of a pattern within a string.
+
   ```bash
       sentence="This is a test. This is another test."
     new_sentence="${sentence//test/example}" # Replaces all "test" with "example"
