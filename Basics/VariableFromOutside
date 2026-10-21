@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# if u run this scruipt with Word on the first
+# eg :
+# > Word="Love" ./VariableFromOutside
+# the echo word will change
+
+Word="${Word:-Its My Word}"
+echo "${Word}"
+
+CheckWord() {
+  local New_Word="${New_Word:-My function Word}"
+  echo "$New_Word"
+}
+echo ""
+echo "The Function is passed the variable just like how script is passed"
+echo "---- Echo from function ----"
+
+New_Word="Function : $Word" CheckWord
+
+# the variable is discared so it will be not shown empty output
+# similary the Word that u set will be discared from outisde
+echo "$New_Word"
